@@ -74,6 +74,7 @@
                 Name = model.Name,
                 IsPublic = model.RepositoryType == RepositoryPublicType,
                 OwnerId = this.User.Id
+                
             };
 
             this.data.Repositories.Add(repository);

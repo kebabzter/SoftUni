@@ -15,7 +15,7 @@
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer(@"Server=PC-GABRIEL\SQLEXPRESS;Database=Git;Integrated Security=True;");
+                optionsBuilder.UseSqlServer(@"Server=PC-GABRIEL\SQLEXPRESS;Database=Git-Kenov;Integrated Security=True;");
             }
         }
 
