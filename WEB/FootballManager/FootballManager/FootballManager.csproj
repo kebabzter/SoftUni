@@ -31,9 +31,4 @@
     <None Remove="Views\Error.cshtml" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Compile Include="..\..\..\..\..\Data\Migrations\20220220073402_UserPlayerUserPlayersTables.cs" Link="Data\20220220073402_UserPlayerUserPlayersTables.cs" />
-    <Compile Include="..\..\..\..\..\Data\Migrations\20220220073402_UserPlayerUserPlayersTables.Designer.cs" Link="Data\20220220073402_UserPlayerUserPlayersTables.Designer.cs" />
-  </ItemGroup>
-
 </Project>
