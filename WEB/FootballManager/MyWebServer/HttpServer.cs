@@ -62,7 +62,7 @@
             where TService : class
         {
             var service = this.serviceCollection.Get<TService>();
-
+            
             if (service == null)
             {
                 throw new InvalidOperationException($"Service '{typeof(TService).FullName}' is not registered.");
